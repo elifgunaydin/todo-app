@@ -30,7 +30,7 @@ export default function TodoApp() {
       text,
       completed: false,
       createdAt: new Date(),
-      dueDate: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000) // default due in 1 week
+      dueDate: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000) // default due in 1 week
     }])
   }
 
